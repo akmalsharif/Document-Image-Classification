@@ -49,7 +49,7 @@ Skor public/private Kaggle belum dicantumkan karena bergantung pada submission a
 2. Unduh data lewat tab **Data → Download All**, atau Kaggle CLI:
 
    ```bash
-   kaggle competitions download -c document-image-classification-sd234504 -p dataset
+   kaggle competitions download -c document-image-classification -p dataset
    ```
 
 3. Ekstrak ZIP ke folder `dataset/`. Notebook dan loader mengharapkan CSV berada langsung di `dataset/`, dengan gambar seperti berikut:
