@@ -1,0 +1,17 @@
+﻿__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+# Dataset besar hasil unduh
+data/
+dataset/
+# Checkpoint dan bobot model
+checkpoint/
+checkpoints/
+models/*.pth
+models/*.pt
+desktop.ini
+*.pdf
